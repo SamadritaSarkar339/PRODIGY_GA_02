@@ -14,10 +14,10 @@ def generate_image(prompt):
 # Gradio interface
 interface = gr.Interface(
     fn=generate_image,
-    inputs=gr.Textbox(lines=1, placeholder="Enter your prompt here...", label="Prompt"),
+    inputs=gr.Textbox(lines=1, placeholder="a futuristic city at sunset, digital art", label="Prompt"),
     outputs=gr.Image(type="pil"),
     title="Stable Diffusion Text-to-Image Generator",
-    description="A futuristic city at sunset,digital art",
+    description="Enter a prompt and generate an AI image using Stable Diffusion.",
 )
 
 # Launch the UI

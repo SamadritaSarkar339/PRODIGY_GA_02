@@ -17,7 +17,7 @@ interface = gr.Interface(
     inputs=gr.Textbox(lines=1, placeholder="Enter your prompt here...", label="Prompt"),
     outputs=gr.Image(type="pil"),
     title="Stable Diffusion Text-to-Image Generator",
-    description="Enter a prompt and generate an AI image using Stable Diffusion.",
+    description="A futuristic city at sunset,digital art",
 )
 
 # Launch the UI
